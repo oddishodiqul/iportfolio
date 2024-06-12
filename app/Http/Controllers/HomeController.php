@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Certificate;
 use App\Models\Education;
 use App\Models\PersonalInfo;
+use App\Models\Portfolio;
 use App\Models\Services;
 use App\Models\Skill;
 use App\Models\SocialMedia;
@@ -21,12 +22,14 @@ class HomeController extends Controller
         $works = WorkExperience::all();
         $educations = Education::all();
         $certificates = Certificate::all();
+        $portfolios = Portfolio::all();
 
         return view('index', [
             'info' => $info,
             'works' => $works,
             'services' => $services,
             'certificates' => $certificates,
+            'portfolios' => $portfolios,
             'skills' => $skills,
             'educations' => $educations,
             'social_media' => $social_media, 
