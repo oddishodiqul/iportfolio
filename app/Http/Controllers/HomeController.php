@@ -35,4 +35,16 @@ class HomeController extends Controller
             'social_media' => $social_media, 
         ]);
     }
+
+    public function details ($slug) {
+        $info = PersonalInfo::all();
+        $social_media = SocialMedia::all();
+        $portfolios = Portfolio::where('slug', $slug)->first();
+        
+        return view('portfolio-details', [
+            'portfolios' => $portfolios,
+            'info' => $info,
+            'social_media' => $social_media, 
+        ]);
+    }
 }

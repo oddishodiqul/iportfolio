@@ -15,9 +15,10 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->string('ownership');
-            $table->text('categories');
+            $table->string('categories');
             $table->text('descriptions');
-            $table->text('photos');
+            $table->string('photos');
+            $table->string('slug');
             $table->timestamps();
         });
     }
