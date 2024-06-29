@@ -19,7 +19,7 @@ class WorkExperienceSeeder extends Seeder
                 'location' => 'Indonesia Stock Exchange',
                 'join_date' => '2024-02-28',
                 'end_date' => '1900-01-01',
-                'descriptions' => 'Test User',
+                'descriptions' => '<li>Maintain Sharia Invesment Week (SIW) 2024</li><li>Create feature generate QR Code</li><li>Create feature Scan QR for record attendance, merchandise and consumtions</li><li>Create feature blasting email use SMTP sendgrid</li><li>Implementing Google Recaptcha for preventing bot spammer</li>',
             ],
             [
                 'title' => 'Frontend Developer',

@@ -17,7 +17,7 @@ class HomeController extends Controller
     public function index () {
         $skills = Skill::all();
         $social_media = SocialMedia::all();
-        $info = PersonalInfo::all();
+        $info = PersonalInfo::first();
         $services = Services::all();
         $works = WorkExperience::all();
         $educations = Education::all();
@@ -25,7 +25,7 @@ class HomeController extends Controller
         $portfolios = Portfolio::all();
 
         return view('index', [
-            'info' => $info,
+            'personal' => $info,
             'works' => $works,
             'services' => $services,
             'certificates' => $certificates,
