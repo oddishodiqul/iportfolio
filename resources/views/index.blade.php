@@ -6,8 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>iPortfolio Bootstrap Template - Index</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta content="Shodiqul Amien adalah seorang profesional web and mobile developer dengan berbagai tech stack yang dikuasai dan memiliki pengalaman lebih dari 5 tahun" name="description">
+  <meta content="Shodiqul Amien, Web Developer, Mobile Developer, IT Solutions, IT Consultant, Project Manager, Product Manager, DevOps, Artificial Intelligence, Machine Learning" name="keywords">
 
   <!-- Favicons -->
   <link href="" rel="icon">
